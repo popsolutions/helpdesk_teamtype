@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
-                <template id="assets_frontend_website_portal_helpdesk_ticket_teamtype" inherit_id="website.assets_frontend">
-                    <xpath expr=".">
-                        <script type="text/javascript" src="/helpdesk_teamtype/static/src/js/helpdesk_ticket_teamtype_js.js"/>
-                    </xpath>
-                </template>
+        <template id="assets_frontend_website_portal_helpdesk_ticket_teamtype" inherit_id="website.assets_frontend">
+            <xpath expr=".">
+                <script type="text/javascript" src="/helpdesk_teamtype/static/src/js/helpdesk_ticket_teamtype_js.js"/>
+            </xpath>
+        </template>
 
         <template id="portal_create_ticket_inherited" inherit_id="helpdesk_mgmt.portal_create_ticket">
             <xpath expr="//t//form//div[2]//div" position="after">
