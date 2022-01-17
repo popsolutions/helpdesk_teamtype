@@ -8,7 +8,7 @@
         </template>
 
         <template id="portal_create_ticket_inherited" inherit_id="helpdesk_mgmt.portal_create_ticket">
-            <xpath expr="//t//form//div[2]//div" position="after">
+            <xpath expr="//t//form//div[3]//div" position="replace">
                 <div id="team_information" class="form-group">
                     <label class="col-md-3 col-sm-4 control-label" for="team_id">Equipe</label>
                     <div class="col-md-7 col-sm-8">
